@@ -1,7 +1,12 @@
 public class Tester {
-	public static void main(String[] args) {
-		Solitare game = new Solitare();
+	public static void main(String[] args) throws Exception {
+
+		Solitaire game = new Solitaire();
+
 		game.createDeck();
+		game.dealCards();
+		game.printPiles();
+		controller.controller(game);
 
 	}
 }

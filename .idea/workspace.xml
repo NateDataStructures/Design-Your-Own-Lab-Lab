@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c79f220-401b-4b40-8d8f-9adef587873b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solitare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CardPile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solitaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestThing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyCircularlyDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyCircularlyDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solitare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +47,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/nathaniel.pritzker/Documents/DataStructures23/Design Your Own Lab Lab/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,7 +63,14 @@
       <recent name="C:\Users\nathaniel.pritzker\Documents\DataStructures23\Design Your Own Lab Lab\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Tester">
+    <configuration name="TestThing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestThing" />
+      <module name="Design Your Own Lab Lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tester" />
       <module name="Design Your Own Lab Lab" />
@@ -65,6 +81,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.TestThing" />
       </list>
     </recent_temporary>
   </component>
@@ -77,10 +94,33 @@
       <option name="presentableId" value="Default" />
       <updated>1679926196980</updated>
       <workItem from="1679926198186" duration="1524000" />
+      <workItem from="1680013177540" duration="2546000" />
+      <workItem from="1680097648071" duration="2854000" />
+      <workItem from="1680184093478" duration="2777000" />
+      <workItem from="1680219386188" duration="7497000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/CardPile.java</url>
+          <line>109</line>
+          <properties class="CardPile" method="moveMultipleCardsTo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -288,6 +288,11 @@ public class MyCircularlyDoublyLinkedList<E> implements MyList<E> {
 		return e;
 	}
 
+	// get next node
+	public void shift() {
+		tail = tail.next;
+	}
+
 	@Override
 	/** Override iterator() defined in Iterable */
 	public java.util.Iterator<E> iterator() {
